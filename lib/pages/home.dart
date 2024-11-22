@@ -27,7 +27,7 @@ class MovieListView extends StatelessWidget {
   ];
   final user = FirebaseAuth.instance.currentUser!;
 
-  const MovieListView({super.key});
+  MovieListView({super.key});
   void signUserOut(BuildContext context) async {
   User? user = FirebaseAuth.instance.currentUser;
 
